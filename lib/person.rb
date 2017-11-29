@@ -12,14 +12,14 @@ class Person
   end
 
   def job(job)
-    @jobs = job
+    @job = job
   end
 
   def job
-    @jobs
+    @job
   end
 
   def job=(new_job)
-    @jobs = new_job
+    @job = new_job
   end
 end
