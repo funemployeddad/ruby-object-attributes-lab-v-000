@@ -15,11 +15,11 @@ class Person
     @jobs = job
   end
 
-  def jobs
+  def job
     @jobs
   end
 
-  def jobs=(new_job)
+  def job=(new_job)
     @jobs = new_job
   end
 end
