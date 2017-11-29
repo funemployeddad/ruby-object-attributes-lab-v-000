@@ -11,7 +11,7 @@ class Person
     @name = new_name
   end
 
-  def jobs(job)
+  def job(job)
     @jobs = job
   end
 
